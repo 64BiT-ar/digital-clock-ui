@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    height: 100vh;
+    background-image: url(jason-miller-jPs0ZgfLRww-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.title {
+    background-color: rgba(255, 255, 255, 0.1); /* light transparent bg */
+    backdrop-filter: blur(1px);               /* this is the key */
+    -webkit-backdrop-filter: blur(10px); /* for Safari */
+    
+    display: inline-block;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    translate: -50%;
+    
+    font-size: 48px;
+    font-family: monospace;
+    font-weight: bold;
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+#time {
+    background-color: rgba(255, 255, 255, 0.1); /* light transparent bg */
+    backdrop-filter: blur(1px);               /* this is the key */
+    -webkit-backdrop-filter: blur(10px); /* for Safari */
+    
+    display: inline-block;
+    position: relative;
+    top: 45%;
+    left: 22%;
+    translate: -50%;
+    
+    font-size: 42px;
+    font-family:monospace;
+    font-weight: bold;
+    padding: 20px 200px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
